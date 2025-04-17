@@ -21,7 +21,7 @@ go install github.com/lowk3v/chunked_file@latest
 
 ```bash
 # simple use
-ls javascript.min.js | chunked_file | tee javascript.min.chunked.js
+cat javascript.min.js | chunked_file | tee javascript.min.chunked.js
 
 # Process a single file (output to console)
 ./chunked_file sample.txt
